@@ -102,3 +102,11 @@ nav {
     background: #e0e0e0;
 }
 
+.contact-image {
+    width: 100%;
+    max-width: 350px;
+    height: auto;
+    display: block;
+    margin: 20px auto;
+    border-radius: 10px;
+}
