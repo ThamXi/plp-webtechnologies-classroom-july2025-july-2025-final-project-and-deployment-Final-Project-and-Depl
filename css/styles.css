@@ -110,3 +110,77 @@ nav {
     margin: 20px auto;
     border-radius: 10px;
 }
+
+/* CONTACT PAGE */
+.contact-section {
+    max-width: 900px;
+    margin: auto;
+    padding: 20px;
+    text-align: center;
+}
+
+.contact-image {
+    max-width: 100%;
+    border-radius: 10px;
+    margin: 20px 0;
+}
+
+/* CONTACT FORM */
+.contact-form {
+    background: #f5f5f5;
+    padding: 25px;
+    border-radius: 12px;
+    max-width: 600px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.form-group {
+    text-align: left;
+}
+
+.form-group label {
+    font-weight: bold;
+    display: block;
+    margin-bottom: 6px;
+}
+
+.form-group input,
+.form-group textarea {
+    width: 100%;
+    padding: 12px;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+    outline: none;
+    transition: 0.2s ease;
+}
+
+.form-group input:focus,
+.form-group textarea:focus {
+    border-color: #333;
+}
+
+/* SUBMIT BUTTON */
+.btn-submit {
+    background: black;
+    color: white;
+    padding: 12px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: 0.3s ease-in-out;
+}
+
+.btn-submit:hover {
+    background: #444;
+}
+
+/* MOBILE FRIENDLY */
+@media screen and (max-width: 600px) {
+    .contact-form {
+        padding: 15px;
+    }
+}
